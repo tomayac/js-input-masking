@@ -11,7 +11,7 @@ Many implementations of input masking [exist in user land](https://bashooka.com/
 
 ## A beginning of a proposal
 
-This proposal is to gauge interest in making input masking part of the language, maybe as a new interface of `Intl`. Here're some code snippets how this could look like in practice:
+This proposal is to gauge interest in making input masking part of the language, maybe as a new interface of `Intl`. Here're some code snippets that show how this could look like in practice:
 
 * **Globally agreed-on** input mask:
   
