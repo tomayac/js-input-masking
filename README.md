@@ -16,8 +16,7 @@ This proposal is to gauge interest in making input masking part of the language,
 * **Globally agreed-on** input mask:
   
    ```js
-   new Intl.InputMask('credit-card- 
-  number').format('4012888888881881'));
+   new Intl.InputMask('credit-card-number').format('4012888888881881'));
    // "4012 8888 8888 1881"
    ```
 * **Locale-aware input mask** with customization options:
