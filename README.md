@@ -25,8 +25,13 @@ this could look like in practice:
 - **Globally agreed-on** input mask:
 
   ```js
+  // 16 digits.
   new Intl.InputMask("credit-card-number").format("4012888888881881");
   // "4012 8888 8888 1881"
+  
+  // 15 digits.
+  new Intl.InputMask("credit-card-number").format("378282246310005");
+  // "3782 822463 10005"
   ```
 
 - **Locale-aware input mask** with customization options:
@@ -140,3 +145,4 @@ Feedback on this early-stage idea is welcome. Please
 I'm thankful for the contributions from:
 
 - [@charmander](https://github.com/charmander)
+- [@tomByrer](https://github.com/tomByrer)
