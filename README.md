@@ -19,7 +19,7 @@ proving that there is a true need for this feature.
 ## A beginning of a proposal
 
 This proposal is to gauge interest in making input masking part of the language,
-maybe as a new interface of `Intl`. Here're some code snippets that show how
+maybe as a new interface of `Intl`. Here're some code snippets that show what
 this could look like in practice:
 
 - **Globally agreed-on** input mask:
@@ -50,14 +50,14 @@ this could look like in practice:
 
 ## Isomporhic JS™
 
-The idea of making this part of the language would allow people to use this on
+Making this part of the language would allow people to use this on
 the **client** and the **server**.
 
 ### On the client
 
 For example, a **client-side implementation** could use this as follows (note
-that the `type="tel"` of the `<input>` does not mean _"the value is actually the
-input value is not automatically validated to a particular format before the
+that the `type="tel"` of the `<input>` does not mean the input value is
+_"automatically validated to a particular format before the
 form can be submitted, because formats for telephone numbers vary so much around
 the world"_ [_cf._
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#:~:text=the%20input%20value%20is%20not%20automatically%20validated%20to%20a%20particular%20format%20before%20the%20form%20can%20be%20submitted%2C%20because%20formats%20for%20telephone%20numbers%20vary%20so%20much%20around%20the%20world.)]):
