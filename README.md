@@ -3,7 +3,7 @@
 **Author:** Thomas Steiner ([tomac@google.com](mailto:tomac@google.com),
 [@tomayac](https://twitter.com/tomayac))
 
-**Last updated:** 2021-06-29
+**Last updated:** 2021-06-30
 
 ## The problem
 
@@ -134,3 +134,9 @@ This also does not solve the issue on the server side.
 
 Feedback on this early-stage idea is welcome. Please
 [open a new Issue](https://github.com/tomayac/js-input-masking/issues).
+
+## Acknowledgements
+
+I'm thankful for the contributions from:
+
+- [@charmander](https://github.com/charmander)
