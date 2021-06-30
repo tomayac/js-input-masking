@@ -1,4 +1,4 @@
-# Input Masking
+# Input Masking 🎭
 
 **Author:** Thomas Steiner ([tomac@google.com](mailto:tomac@google.com),
 [@tomayac](https://twitter.com/tomayac))
