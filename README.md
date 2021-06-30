@@ -77,7 +77,7 @@ const formatPhoneNumber = (value) => {
   }).format(value);
 };
 
-const input = document
+document
   .querySelector("#phone")
   .addEventListener("input", (e) => {
     e.target.value = formatPhoneNumber(e.target.value);
