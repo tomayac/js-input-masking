@@ -53,6 +53,13 @@ this could look like in practice:
   // "nospacesnouppercase"
   ```
 
+## Polyfill
+
+Work on a polyfill that implements this proposal has started in
+[tomayac/js-input-masking-polyfill](https://github.com/tomayac/js-input-masking-polyfill).
+You can see `Intl.InputMask` in action in the
+[demo](https://tomayac.github.io/js-input-masking-polyfill/demo/).
+
 ## Isomporhic JS™
 
 Making this part of the language would allow people to use this on
