@@ -3,7 +3,7 @@
 **Author:** Thomas Steiner ([tomac@google.com](mailto:tomac@google.com),
 [@tomayac](https://twitter.com/tomayac))
 
-**Last updated:** 2021-06-30
+**Last updated:** 2021-09-07
 
 ## The problem
 
@@ -28,7 +28,7 @@ this could look like in practice:
   // 16 digits.
   new Intl.InputMask("credit-card-number").format("4012888888881881");
   // "4012 8888 8888 1881"
-  
+
   // 15 digits.
   new Intl.InputMask("credit-card-number").format("378282246310005");
   // "3782 822463 10005"
@@ -89,11 +89,9 @@ const formatPhoneNumber = (value) => {
   }).format(value);
 };
 
-document
-  .querySelector("#phone")
-  .addEventListener("input", (e) => {
-    e.target.value = formatPhoneNumber(e.target.value);
-  });
+document.querySelector("#phone").addEventListener("input", (e) => {
+  e.target.value = formatPhoneNumber(e.target.value);
+});
 ```
 
 ### On the server
@@ -132,8 +130,8 @@ app.get("/phones", (req, res) => {
 
 Just leaving this to the user land is an obvious alternative. The ecosystem of
 input masking libraries is alive, and great implementations exist. Pulling any
-of those in comes at a cost for each locale that's needed, and the weight of the
-library itself.
+of those in comes at a cost for each locale that's needed though, and the
+weight of the particular input masking library itself.
 
 Another alternative would be to add new (and smarter) input types. A recent
 example is the
@@ -153,3 +151,4 @@ I'm thankful for the contributions from:
 
 - [@charmander](https://github.com/charmander)
 - [@tomByrer](https://github.com/tomByrer)
+- [@hemanth](https://github.com/hemanth)
